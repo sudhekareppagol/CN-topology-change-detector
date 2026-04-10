@@ -32,5 +32,21 @@ To detect changes in network topology dynamically using Software Defined Network
 - When link is down, communication fails
 - After restoring link, network recovers
 
+## Test Cases
+1. Normal Case:
+   All links active → Successful communication
+
+2. Failure Case:
+   Link down → Communication fails
+
+3. Recovery Case:
+   Link restored → Communication resumes
+
+## Analysis
+- Initially, all hosts communicate successfully.
+- When the link between switches is brought down, packets cannot reach destination.
+- This shows how topology change affects network connectivity.
+- When the link is restored, communication resumes.
+
 ## Conclusion
 The experiment demonstrates that network behavior changes dynamically when topology changes occur.
