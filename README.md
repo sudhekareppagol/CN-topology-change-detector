@@ -10,7 +10,8 @@ To detect changes in network topology dynamically using Software Defined Network
 
 ## Steps Performed
 1. Created network using:
-   sudo mn --topo linear,3
+    sudo mn --topo linear,3 --controller remote
+
 
 2. Checked topology:
    net
